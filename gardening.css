@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +21,7 @@ section {
   height: 100vh;
 }
 section {
-  background-image: url(https://cdn.pixabay.com/photo/2023/08/06/19/01/colvers-8173610_1280.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2023/04/25/18/20/butterfly-7950740_640.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,6 +92,7 @@ nav {
   display: flex;
   justify-content: center;
 }
+
 nav .active {
   color: #00FF26;
 }
@@ -106,9 +107,12 @@ nav .active {
   transform: scale(0);
   transform-origin: left;
   transition: 0.3s;
+  text-decoration-line: unset;
+  text-decoration: none;
 }
 .nav-items:hover::after {
   transform: scale(1);
+  text-decoration-line:none ;
 }
 .active:hover::after {
   background-color: #00FF26;
@@ -159,7 +163,7 @@ nav .active {
   color: black;
 }
 
-/* About Section */
+
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
